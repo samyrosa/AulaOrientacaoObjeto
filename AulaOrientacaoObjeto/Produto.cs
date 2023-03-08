@@ -23,13 +23,39 @@ namespace AulaOrientacaoObjeto
         {
             return Id;
         }
+
+        public void setId(int id)
+        {
+            if (id > 0)
+            {
+                Id = id;
+            }
+        }
+
         public string getDescricao()
         {
             return Descricao;
         }
+
+        public void setDescricao(string descricao)
+        {
+            if (descricao != "")
+            {
+                Descricao = descricao;
+            }
+        }
+
         public decimal getValor()
         {
             return Valor;
+        }
+
+        public void setValor(decimal valor)
+        {
+            if (Valor != valor)
+            {
+                Valor = valor;
+            }
         }
     }
 }
