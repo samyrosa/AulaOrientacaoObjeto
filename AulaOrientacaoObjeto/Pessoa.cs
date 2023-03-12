@@ -27,5 +27,20 @@
         {
             return Telefone;
         }
+
+        public void setId(int id)
+        {
+            Id = id;
+        }
+
+        public void setNome(string nome)
+        {
+            Name = nome;
+        }
+
+        public void setTelefone(string telefone)
+        {
+            Telefone = telefone;
+        }
     }
 }
